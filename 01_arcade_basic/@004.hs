@@ -1,0 +1,1 @@
+somaImpares xs = sum(filter(\x -> mod x 2 == 1) xs)

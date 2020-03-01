@@ -1,0 +1,1 @@
+interior xs = init (tail xs)
