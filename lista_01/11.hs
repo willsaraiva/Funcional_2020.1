@@ -1,0 +1,1 @@
+maioresQue n xs = [x| x <- xs, x > n]

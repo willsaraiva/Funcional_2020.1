@@ -1,0 +1,1 @@
+calda (x:xs) = xs
