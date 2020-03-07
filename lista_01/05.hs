@@ -1,1 +1,2 @@
-elemento n (x:xs) = if n == 0 then x else elemento (n-1) xs 
+elemento 0 (x:xs) = x 
+elemento n (:xxs) = elemento (n-1) xs 

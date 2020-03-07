@@ -1,2 +1,2 @@
 pertence n [] = False
-pertence n (x:xs) = if n == x then True else pertence n xs
+pertence n (x:xs) = (n == x) || pertence n xs
