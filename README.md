@@ -38,4 +38,4 @@ Repositório criado para disciplina de Programação Funcional em 2020.1
 - Foram questões/implementações feitas pelo Wladimir durante as aulas e que serviram de exemplo quando fui realizar as questões do Moodle.
 
 ## Dificuldades:
-Alguns assuntos foram mais difíceis para minha assimilação como: Funções de Alta Ordem, I/o e algumas funções especificas como Fold(DObra). 
+Alguns assuntos foram mais difíceis para minha assimilação como: Funções de Alta Ordem, I/o e algumas funções especificas como Fold(Dobra). 
