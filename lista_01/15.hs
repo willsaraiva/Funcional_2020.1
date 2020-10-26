@@ -1,3 +1,6 @@
 unique [] = []
-unique [x] = [x]
-unique (x:xs) = if elem x xs then unique xs else unique xs++[x]
+unique (x:xs) = x:(unique (filter (/=x) xs))
+
+main = do
+    a <- readLn :: IO [Int]
+    print $ unique a
