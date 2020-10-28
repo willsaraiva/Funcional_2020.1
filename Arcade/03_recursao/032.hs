@@ -1,0 +1,1 @@
+sequencia n m = take n [m..]

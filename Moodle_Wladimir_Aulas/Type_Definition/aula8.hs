@@ -67,6 +67,9 @@ data Nat = Zero | Succ Nat deriving (Show, Eq, Ord)
 data Expr = Val Int
     | Soma Expr Expr
     | Mult Expr Expr
+	| Div Expr	Expr
+	| Sub Expr  Expr
+	| Mod Expr  Expr
     deriving (Show, Eq)
 
     -- expr1 = Val 5 
@@ -77,6 +80,9 @@ data Expr = Val Int
     -- valor :: Expr -> Int
     -- valor (Val x)          = x
     -- valor (Soma exp1 exp2) = valor exp1 + valor exp2 
-    -- valor (Mult exp1 exp2) = valor exp1 * valor exp2 
+    -- valor (Mult exp1 exp2) = valor exp1 * valor exp2
+    -- valor (Sub exp1 exp2) = valor exp1 - valor exp2 
+    -- valor (Div exp1 exp2) = if exp2 == 0 then -1 else  valor exp1 / valor exp2
+    -- valor (Mod exp1 exp2) = valor exp1 `mod` valor exp2 
 
 
