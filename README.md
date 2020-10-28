@@ -22,10 +22,16 @@ Repositório criado para disciplina de Programação Funcional em 2020.1
 - Monad, Maybe, IO;
 
 ## Atividades Realizadas:
-### Lista(Ricardo Reis)
+### Lista 01(Ricardo Reis)
 - A lista era composta por 40 questões;
 - A principal dificuldade enfrentada foi as questões que envolviam ordenação, exceto o QuickSort;
 - Levei cerca de 2 semanas pra realizar todas as questões;
+- Fiz sozinho.
+
+### Arcade
+- Foi composta, basicamente, das 40 questões já feitas na Lista 01 com o acrescimo de algumas questões;
+- As principais dificuldades enfrentadas foram as questões que envolviam ordenação, exceto o QuickSort, e as questões do Zip e String;
+- Levei cerca de 1 semana pra realizar todas as questões;
 - Fiz sozinho.
 
 ### Moodle(Wladimir)
